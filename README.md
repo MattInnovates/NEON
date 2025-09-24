@@ -40,7 +40,7 @@ This project builds upon lessons learned from **AEON** but starts with a fresh f
 `░░░░░░░░░░` 2% — reasoning, memory, decision scaffolding  
 
 ### Phase 4: Policy  
-`░░░░░░░░░░` 0% — adaptive goals & behavioral rules  
+`░░░░░░░░░░` 100% — adaptive goals & behavioral rules  
 
 ### Phase 5: Reflection  
 `░░░░░░░░░░` 0% — self-monitoring & evaluation  
