@@ -1,0 +1,3 @@
+package perception
+
+// Console perceiver.
