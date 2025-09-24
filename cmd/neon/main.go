@@ -6,31 +6,10 @@ import (
 	"fmt"
 	"log"
 
+	"neon/internal/agent"
 	"neon/internal/storage"
 	"neon/internal/telemetry"
-	"neon/pkg/structs"
 )
-
-type Agent struct {
-	logger *telemetry.Logger
-}
-
-func NewAgent() *Agent {
-	return &Agent{logger: telemetry.NewLogger(".")}
-}
-
-func (a *Agent) Run(ctx context.Context) error {
-	defer a.logger.Close()
-
-	// Boot log
-	a.logger.Log(structs.NewEvent("BOOT", "system", map[string]any{
-		"message": "NEON boot sequence",
-	}))
-
-	fmt.Println("⟦ NEON v0.1 ⟧")
-	fmt.Println("NEON is running. Logs are being written to data/events/")
-	return nil
-}
 
 func main() {
 	cmd := flag.String("cmd", "", "command: run | snapshot-save | snapshot-restore")
@@ -60,8 +39,11 @@ func main() {
 
 	default:
 		ctx := context.Background()
-		agent := NewAgent()
-		if err := agent.Run(ctx); err != nil {
+		logger := telemetry.NewLogger(".")
+		defer logger.Close()
+
+		ag := agent.NewAgent(logger)
+		if err := ag.Run(ctx); err != nil {
 			log.Fatalf("agent error: %v", err)
 		}
 	}
