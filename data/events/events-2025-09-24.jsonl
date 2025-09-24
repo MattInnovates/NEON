@@ -1,1 +1,80 @@
 {"timestamp":1758712354,"type":"BOOT","source":"system","payload":{"message":"NEON boot sequence"}}
+{"timestamp":1758712856,"type":"INPUT","source":"console","payload":{"text":"hello"}}
+{"timestamp":1758712856,"type":"OUTPUT","source":"agent","payload":{"text":"You said: hello"}}
+{"timestamp":1758712864,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758713262,"type":"INPUT","source":"console","payload":{"text":"Morning"}}
+{"timestamp":1758713262,"type":"OUTPUT","source":"agent","payload":{"text":"You said: Morning"}}
+{"timestamp":1758713268,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758713431,"type":"INPUT","source":"console","payload":{"text":"Afternoon"}}
+{"timestamp":1758713431,"type":"OUTPUT","source":"agent","payload":{"text":"You said: Afternoon"}}
+{"timestamp":1758713433,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758713990,"type":"BOOT","source":"system","payload":{"message":"NEON boot sequence"}}
+{"timestamp":1758713994,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0.5,"text":"this is awesome"}}
+{"timestamp":1758713994,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0.5,"text":"(neutral) You said: this is awesome"}}
+{"timestamp":1758714003,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":-0.44414195000000006,"text":"this is a bug"}}
+{"timestamp":1758714003,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":-0.44414195000000006,"text":"(neutral) You said: this is a bug"}}
+{"timestamp":1758714020,"type":"HEALTH","source":"system","payload":{"errors":0,"events":5,"uptime_sec":30}}
+{"timestamp":1758714028,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":-0.5,"text":"this is a bug"}}
+{"timestamp":1758714028,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":-0.5,"text":"(neutral) You said: this is a bug"}}
+{"timestamp":1758714029,"type":"INPUT","source":"console","payload":{"mood_now":"negative","mood_score":-0.915359065,"text":"this is a bug"}}
+{"timestamp":1758714029,"type":"OUTPUT","source":"agent","payload":{"mood_now":"negative","mood_score":-0.915359065,"text":"(negative) I hear you — this is a bug"}}
+{"timestamp":1758714030,"type":"INPUT","source":"console","payload":{"mood_now":"negative","mood_score":-1.3780710749999998,"text":"this is a bug"}}
+{"timestamp":1758714030,"type":"OUTPUT","source":"agent","payload":{"mood_now":"negative","mood_score":-1.3780710749999998,"text":"(negative) I hear you — this is a bug"}}
+{"timestamp":1758714050,"type":"HEALTH","source":"system","payload":{"errors":0,"events":12,"uptime_sec":60}}
+{"timestamp":1758714067,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714067,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714068,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714068,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714069,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714069,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714070,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714070,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714070,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714071,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714071,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714071,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714072,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"this is fun"}}
+{"timestamp":1758714072,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) You said: this is fun"}}
+{"timestamp":1758714077,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758714213,"type":"BOOT","source":"system","payload":{"message":"NEON boot sequence"}}
+{"timestamp":1758714222,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0.5,"text":"this is awesome","top_words":[{"word":"this","count":1},{"word":"is","count":1},{"word":"awesome","count":1}]}}
+{"timestamp":1758714222,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0.5,"text":"(neutral) You said: this is awesome"}}
+{"timestamp":1758714227,"type":"INPUT","source":"console","payload":{"mood_now":"positive","mood_score":0.78664989,"text":"this is awesome","top_words":[{"word":"this","count":2},{"word":"is","count":2},{"word":"awesome","count":2}]}}
+{"timestamp":1758714227,"type":"OUTPUT","source":"agent","payload":{"mood_now":"positive","mood_score":0.78664989,"text":"(positive) Nice — this is awesome"}}
+{"timestamp":1758714235,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":-0.15317020000000003,"text":"this is a bug","top_words":[{"word":"is","count":3},{"word":"this","count":3},{"word":"awesome","count":2},{"word":"a","count":1},{"word":"bug","count":1}]}}
+{"timestamp":1758714235,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":-0.15317020000000003,"text":"(neutral) You said: this is a bug"}}
+{"timestamp":1758714236,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":-0.5972778200000001,"text":"this is a bug","top_words":[{"word":"this","count":4},{"word":"is","count":4},{"word":"a","count":2},{"word":"bug","count":2},{"word":"awesome","count":2}]}}
+{"timestamp":1758714236,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":-0.5972778200000001,"text":"(neutral) You said: this is a bug"}}
+{"timestamp":1758714237,"type":"INPUT","source":"console","payload":{"mood_now":"negative","mood_score":-1.0483554800000001,"text":"this is a bug","top_words":[{"word":"this","count":5},{"word":"is","count":5},{"word":"bug","count":3},{"word":"a","count":3},{"word":"awesome","count":2}]}}
+{"timestamp":1758714237,"type":"OUTPUT","source":"agent","payload":{"mood_now":"negative","mood_score":-1.0483554800000001,"text":"(negative) I hear you — this is a bug"}}
+{"timestamp":1758714243,"type":"HEALTH","source":"system","payload":{"errors":0,"events":11,"uptime_sec":30}}
+{"timestamp":1758714252,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758714825,"type":"BOOT","source":"system","payload":{"message":"NEON boot sequence"}}
+{"timestamp":1758714832,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0.5,"text":"I love cats","top_words":[{"word":"is","count":5},{"word":"this","count":5},{"word":"a","count":3},{"word":"bug","count":3},{"word":"awesome","count":2}]}}
+{"timestamp":1758714832,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0.5,"text":"(neutral) I know bug"}}
+{"timestamp":1758714855,"type":"HEALTH","source":"system","payload":{"errors":0,"events":3,"uptime_sec":30}}
+{"timestamp":1758714885,"type":"HEALTH","source":"system","payload":{"errors":0,"events":4,"uptime_sec":60}}
+{"timestamp":1758714915,"type":"HEALTH","source":"system","payload":{"errors":0,"events":5,"uptime_sec":90}}
+{"timestamp":1758714945,"type":"HEALTH","source":"system","payload":{"errors":0,"events":6,"uptime_sec":120}}
+{"timestamp":1758714957,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758715452,"type":"BOOT","source":"system","payload":{"message":"NEON boot sequence"}}
+{"timestamp":1758715458,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0.5,"text":"I love cats","top_words":[{"word":"is","count":5},{"word":"this","count":5},{"word":"a","count":3},{"word":"bug","count":3},{"word":"i","count":2}]}}
+{"timestamp":1758715458,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0.5,"text":"(neutral) I know a"}}
+{"timestamp":1758715458,"type":"REFLECT","source":"agent","payload":{"mood_now":"neutral","mood_score":0.5,"text":"(neutral) I keep thinking about: this, is, a"}}
+{"timestamp":1758715475,"type":"EXIT","source":"console","payload":{"message":"User requested shutdown"}}
+{"timestamp":1758715643,"type":"BOOT","source":"system","payload":{"message":"NEON boot sequence"}}
+{"timestamp":1758715645,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"hi","top_words":[{"word":"is","count":5},{"word":"this","count":5},{"word":"bug","count":3},{"word":"a","count":3},{"word":"cats","count":2}]}}
+{"timestamp":1758715645,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) I know awesome"}}
+{"timestamp":1758715645,"type":"REFLECT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) I keep thinking about: is, this, bug"}}
+{"timestamp":1758715673,"type":"HEALTH","source":"system","payload":{"errors":0,"events":4,"uptime_sec":30}}
+{"timestamp":1758715698,"type":"INPUT","source":"console","payload":{"mood_now":"neutral","mood_score":0,"text":"Bugs can be a good thing because if we didnt have bugs then we would not be able to debug something and fix what caused the bug in the first place","top_words":[{"word":"is","count":5},{"word":"this","count":5},{"word":"a","count":4},{"word":"bug","count":4},{"word":"the","count":2}]}}
+{"timestamp":1758715698,"type":"OUTPUT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) I know is"}}
+{"timestamp":1758715698,"type":"REFLECT","source":"agent","payload":{"mood_now":"neutral","mood_score":0,"text":"(neutral) I keep thinking about: this, is, bug"}}
+{"timestamp":1758715703,"type":"HEALTH","source":"system","payload":{"errors":0,"events":8,"uptime_sec":60}}
+{"timestamp":1758715733,"type":"HEALTH","source":"system","payload":{"errors":0,"events":9,"uptime_sec":90}}
+{"timestamp":1758715763,"type":"HEALTH","source":"system","payload":{"errors":0,"events":10,"uptime_sec":120}}
+{"timestamp":1758715793,"type":"HEALTH","source":"system","payload":{"errors":0,"events":11,"uptime_sec":150}}
+{"timestamp":1758715823,"type":"HEALTH","source":"system","payload":{"errors":0,"events":12,"uptime_sec":180}}
+{"timestamp":1758715853,"type":"HEALTH","source":"system","payload":{"errors":0,"events":13,"uptime_sec":210}}
+{"timestamp":1758715883,"type":"HEALTH","source":"system","payload":{"errors":0,"events":14,"uptime_sec":240}}
+{"timestamp":1758715913,"type":"HEALTH","source":"system","payload":{"errors":0,"events":15,"uptime_sec":270}}
