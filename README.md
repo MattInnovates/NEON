@@ -31,13 +31,13 @@ This project builds upon lessons learned from **AEON** but starts with a fresh f
 ## 🚧 Development Progress
 
 ### Phase 1: Safety Primitives  
-`░░░░░░░░░░` 0.8% — atomic writes, snapshots, telemetry  
+`░░░░░░░░░░` 100% — atomic writes, snapshots, telemetry  
 
 ### Phase 2: Agent Loop  
-`░░░░░░░░░░` 0% — perception → processing → action  
+`░░░░░░░░░░` 70% — perception → processing → action  
 
 ### Phase 3: Cognition  
-`░░░░░░░░░░` 0% — reasoning, memory, decision scaffolding  
+`░░░░░░░░░░` 2% — reasoning, memory, decision scaffolding  
 
 ### Phase 4: Policy  
 `░░░░░░░░░░` 0% — adaptive goals & behavioral rules  
