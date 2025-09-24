@@ -1,0 +1,72 @@
+[
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "animals"
+    },
+    "then": "I noticed the word 'animals'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "insects"
+    },
+    "then": "I noticed the word 'insects'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "majestic"
+    },
+    "then": "I noticed the word 'majestic'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "from"
+    },
+    "then": "Now I feel neutral about 'from'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "continents"
+    },
+    "then": "I noticed the word 'continents'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "elephants"
+    },
+    "then": "I noticed the word 'elephants'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "the"
+    },
+    "then": "Now I feel neutral about 'the'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "holds"
+    },
+    "then": "I noticed the word 'holds'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "to"
+    },
+    "then": "Now I feel neutral about 'to'."
+  },
+  {
+    "when": {
+      "mood": "neutral",
+      "word": "and"
+    },
+    "then": "I noticed the word 'and'."
+  }
+]
